@@ -2,18 +2,21 @@
   body {
     background-color: red;
     font-size: 16px;
+    margin: auto;
   }
   .sml {
     display: block;
+    padding: 20px;
+    text-align: center;
   }
   #small {
     visibility: visible;
   }
   #medium {
-    visibility: collapse;
+    display: none;
   }
   #large {
-    visibility: collapse;
+    display: none;
   }
 }
 
@@ -21,10 +24,15 @@
   body {
     background-color: green;
     font-size: 18px;
+    margin: auto;
+  }
+  .sml {
+    padding: 20px;
+    text-align: center;
   }
 
   #small {
-    visibility: collapse;
+    display: none;
     width: 33.33%;
   }
   #medium {
@@ -32,7 +40,7 @@
     width: 66%;
   }
   #large {
-    visibility: collapse;
+    display: none;
     width: 100%;
   }
 }
@@ -41,15 +49,18 @@
   body {
     background-color: aqua;
     font-size: 20px;
+    margin: auto;
   }
   .sml {
     display: inline-block;
+    padding: 20px;
+    text-align: center;
   }
   #small {
-    visibility: collapse;
+    display: none;
   }
   #medium {
-    visibility: collapse;
+    display: none;
   }
   #large {
     visibility: visible;
